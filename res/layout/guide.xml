@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="430dp"
+    android:orientation="horizontal"
+    android:background="@drawable/downguide" >
+    
+
+    
+    <Button
+        android:id="@+id/guide_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/image" />
+
+    <Button
+        android:id="@+id/guide_video"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:background="@drawable/video" />
+
+    <Button
+        android:id="@+id/guide_friend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:background="@drawable/friend" />
+
+    <Button
+        android:id="@+id/guide_local"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:background="@drawable/local" />
+    
+
+</LinearLayout>
